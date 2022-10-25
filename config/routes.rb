@@ -7,4 +7,9 @@ Rails.application.routes.draw do
   resources :todos do
     resources :items
   end
+
+  # route login
+  post 'auth/login', to: 'authentication#authenticate'
+  # route signup
+  post 'signup', to: 'users#create'
 end
