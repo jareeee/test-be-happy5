@@ -51,3 +51,12 @@ end
 
 # for json web token
 gem 'jwt'
+
+# serializers
+gem 'active_model_serializers'
+
+# pagination
+gem 'will_paginate'
+
+# faker
+gem 'faker'
