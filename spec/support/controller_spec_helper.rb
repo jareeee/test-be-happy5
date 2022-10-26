@@ -24,4 +24,4 @@ module ControllerSpecHelper
         "Content-Type" => "application/json"
       }
     end
-  end
+end

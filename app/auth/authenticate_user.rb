@@ -20,4 +20,4 @@ class AuthenticateUser
       # raise Authentication error if credentials are invalid
       raise(ExceptionHandler::AuthenticationError, Message.invalid_credentials)
     end
-  end
+end

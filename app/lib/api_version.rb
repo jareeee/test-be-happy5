@@ -18,4 +18,4 @@ class ApiVersion
       accept = headers[:accept]
       accept && accept.include?("application/vnd.todos.#{version}+json")
     end
-  end
+end
